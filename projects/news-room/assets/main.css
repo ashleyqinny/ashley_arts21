@@ -1,0 +1,320 @@
+.background_color {
+	background-color: #E5E5E5;
+}
+
+.lp1_bkgd { 
+  background: url("landing-page-1.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lp2_bkgd { 
+  background: url("landing-page-2.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lp3_bkgd { 
+  background: url("landing-page-3.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.lp4_bkgd { 
+  background: url("landing-page-4.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.volcano_bkgd {
+  background: url("volcano_background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.bridge_bkgd {
+  background: url("bridge_background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.space_bkgd {
+  background: url("space_background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.waves_bkgd {
+  background: url("waves_background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.beach_bkgd {
+  background: url("beach_background.png") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+button {
+	border: none;
+	border-radius: 50px;
+	background-color: #1F201C;
+	text-align: center;
+	padding: 10px 80px;
+	font-family: 'Covered By Your Grace';
+	font-size: 30px;
+	color: white;
+	cursor: pointer;
+	box-shadow: 2px 4px #9999;
+}
+
+.button_position {
+  position: absolute;
+  bottom: 7%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+
+.sometimes_position {
+  position: absolute;
+  top: 5%;
+  left: 22%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.cookie_position {
+  position: absolute;
+  top: 42%;
+  left: 12%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.when_position {
+  position: absolute;
+  top: 21%;
+  left: 31%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+
+.large_cookie_position {
+  position: absolute;
+  top: 22%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.bambi_position {
+  position: absolute;
+  top: 35%;
+  left: 38%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.lets_position {
+  position: absolute;
+  top: 66%;
+  left: 71%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.star_position {
+  position: absolute;
+  top: 11%;
+  left: 62%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.if_position {
+  position: absolute;
+  top: 76%;
+  left: 81%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.fossil_position {
+  position: absolute;
+  top: 22%;
+  left: 88%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.special_rock_position {
+  position: absolute;
+  top: 60%;
+  left: 45%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.rocks_position {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.open_agate_position {
+  position: absolute;
+  top: 28%;
+  left: 33%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.tweet_position {
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.snow_position {
+  position: absolute;
+  top: 42%;
+  left: 60%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);	
+}
+
+.special_snow_position {
+  position: absolute;
+  top: 50%;
+  left: 38%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.tweet2_position {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.bambi_text_position {
+  position: absolute;
+  top: 3%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.large_bambi_position {
+  position: absolute;
+  top: 21%;
+  left: 25%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.rectangle_position {
+  position: absolute;
+  top: -10%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.science_text_position {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.beach_rocks_position {
+  position: absolute;
+  top: 25%;
+  left: 44%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.special_cluster_position {
+  position: absolute;
+  top: 54.5%;
+  left: 20%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.large_fossil_position {
+  position: absolute;
+  top: 15%;
+  left: 25%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+.fossil_text_position {
+  position: absolute;
+  top: 33%;
+  left: 68%;
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);  
+}
+
+iframe {
+	display: block;
+	border: 8px solid #1C1C1C;
+	border-radius: 25px;
+	background-color: #FFFFFF;
+}
+
+.iframe_border {
+	border: 8px solid #1C1C1C;
+	border-radius: 25px;
+	background-color: #FFFFFF;
+}
+
+.left {
+  position: absolute;
+  left: 130px;
+  padding: 5px;
+}
+
+.center {
+  margin: auto;
+  padding: 5px;
+}
+
+.right {
+  position: absolute;
+  right:130px;
+  padding: 5px;
+}
+
