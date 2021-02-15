@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'gabriel';
+    src: url('GABRWFFR.ttf');
+}
+
+@font-face {
+    font-family: 'alegreya';
+    src: url('Alegreya.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url('Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url('Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url('Poppins-Light.ttf');
+}
+
+@font-face {
+    font-family: 'northwell';
+    src: url('Northwell.otf');
+}
+
+.version-one {
+    padding-left: 25%;
+    line-height: 55px;
+    text-shadow: 2px 2px 2px #000000;
+}
+
+.name {
+	font-family: helvetica;
+	font-weight: bold;
+	font-style: italic;
+	-webkit-text-stroke: 2.35px black;
+    -webkit-text-fill-color: #F8E36A;
+	font-size: 70px;
+	letter-spacing: 3px;
+}
+
+.words {
+	font-family: helvetica;
+	font-weight: bold;
+	font-style: italic;
+	-webkit-text-stroke: 2.35px black;
+    -webkit-text-fill-color: #F8E36A;
+	font-size: 50px;
+	letter-spacing: 1px;
+}
+
+.version-two {
+	position: relative;
+	line-height: 60px;
+}
+
+.ellipse1 {
+	position: absolute;
+	top: 27%;
+	left: 34%;
+}
+
+.ellipse2 {
+	position: absolute;
+	top: 79%;
+	left: 34%;
+}
+
+.monica-dots {
+	position: absolute;
+	top: 18%;
+	left: 44.1%;
+}
+
+.two-monica {
+	position: absolute;
+	font-family: gabriel;
+	top: 18%;
+	left: 40%;
+  	font-size: 50px;
+  	letter-spacing: 22px;
+}
+
+.two-mstatement {
+	position: absolute;
+	font-family: alegreya;
+	font-weight: bold;
+	top: 30%;
+	left: 40%;
+  	font-size: 35px;
+}
+
+.phoebe-dots {
+	position: absolute;
+	top: 70%;
+	left: 43%;
+}
+
+.two-phoebe {
+	position: absolute;
+	font-family: gabriel;
+	top: 70%;
+	left: 40%;
+  	font-size: 50px;
+  	letter-spacing: 22px;
+}
+
+.two-pstatement {
+	position: absolute;
+	font-family: alegreya;
+	font-weight: bold;	
+	top: 82%;
+	left: 40%;
+  	font-size: 35px;
+}
+
+.version-three {
+	position: relative;
+	font-family: georgia;
+}
+
+.timeline {
+	text-align: center;
+}
+
+.three-monica {
+	position: absolute;
+	top: 18%;
+	left: 33%;
+	font-weight: bold;
+	font-style: italic;
+  	font-size: 30px;
+}
+
+.three-mstatement {
+	position: absolute;
+	top: 8%;
+	left: 58%;
+  	font-size: 30px;
+}
+
+.three-phoebe {
+	position: absolute;
+	top: 70.5%;
+	left: 33%;
+	font-weight: bold;
+	font-style: italic;
+  	font-size: 30px;
+}
+
+.three-pstatement {
+	position: absolute;
+	top: 56%;
+	left: 58%;
+  	font-size: 30px;
+}
+
+
+b {
+	font-family: poppins-regular;
+}
+
+.four-monica {
+    padding-left: 25%;
+  	font-size: 30px;
+  	font-family: poppins-bold;
+
+}
+
+.four-mstatement {
+	position: absolute;
+	left: 30%;
+  	font-size: 22px;
+  	font-family: poppins-light;
+  	color: white;
+  	background-color: #00B3E8;
+  	width: 340px;
+  	text-align: center;
+  	padding: 10px;
+  	border-radius: 15px;
+}
+
+.four-phoebe {
+	padding-left: 47%;
+  	font-size: 30px;
+  	font-family: poppins-bold;
+
+}
+
+.four-pstatement {
+	position: absolute;
+	left: 51%;
+  	font-size: 22px;
+  	font-family: poppins-light;
+  	color: black;
+  	background-color: #FABD0F;
+  	width: 340px;
+  	text-align: center;
+  	padding: 10px;
+  	border-radius: 15px;
+}
+
+.version-five {
+	line-height: 90px;
+	font-family: northwell;
+}
+
+.five-monica {
+	padding-left: 10%;
+  	font-family: northwell;
+  	font-size: 200px;
+  	transform:rotate(-10deg);
+}
+
+.five-mstatement {
+  	padding-left: 13%;
+ 	font-family: northwell;
+  	font-size: 100px;
+  	transform:rotate(-10deg);
+}
+
+.five-phoebe {
+	padding-left: 56%;
+  	font-family: northwell;
+  	font-size: 200px;
+  	transform:rotate(6deg);
+}
+
+.five-pstatement {
+	padding-left: 39%;
+	font-family: northwell;
+  	font-size: 100px;
+  	transform:rotate(6deg);
+}
