@@ -1,0 +1,100 @@
+@font-face {
+    font-family: 'magical';
+    src: url('quitemagical.ttf');
+}
+
+body {
+ 	background-image: url("galaxy.jpeg");
+}
+
+h1 {
+	font-family: 'magical';
+ 	font-size: 80px;
+ 	width: 750px;
+  	letter-spacing: 5px;
+  	background: black;
+  	padding-top: 20px;
+  	border-radius: 30px;
+  	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-filter: drop-shadow(5px 5px 10px black);
+	margin: 80px auto 50px auto;
+}
+
+.row {
+	margin: 80px auto 50px auto;
+  	display: grid;
+  	justify-content: center;
+  	align-content: center;
+  	align-items: center;
+  	text-align: center;
+
+  	gap: 30px;
+  	grid-auto-flow: column;	
+  	margin-top: 10px;
+}
+
+.grayscale img {
+  	filter: grayscale(100%);
+ }
+
+
+.saturate1 img:hover {
+	-webkit-filter: saturate(1.5) drop-shadow(5px 5px 10px black);
+  	cursor: pointer;
+}
+
+.saturate2 img:hover {
+	-webkit-filter: hue-rotate(75deg) drop-shadow(5px 5px 10px black);
+  	cursor: pointer;
+}
+
+.saturate3 img:hover {
+	-webkit-filter: hue-rotate(320deg) drop-shadow(5px 5px 10px black);
+  	cursor: pointer;
+}
+
+.saturate4 img:hover {
+	-webkit-filter: hue-rotate(220deg) drop-shadow(5px 5px 10px black);
+  	cursor: pointer;
+}
+
+.saturate5 img:hover {
+	-webkit-filter: hue-rotate(120deg) drop-shadow(5px 5px 10px black);
+  	cursor: pointer;
+}
+
+.saturate6 img:hover {
+	-webkit-filter: hue-rotate(280deg) drop-shadow(5px 5px 10px black);
+  	cursor: pointer;
+}
+
+.saturate7 img:hover {
+	-webkit-filter: hue-rotate(180deg) drop-shadow(5px 5px 10px black);
+  	cursor: pointer;
+}
+
+.saturate8 img:hover {
+	-webkit-filter: hue-rotate(35deg) drop-shadow(5px 5px 10px black);
+  	cursor: pointer;
+}
+
+#text {
+	display: none;
+}
+
+#flash:hover #text {
+  	display: block;
+  	font-family: 'magical';
+ 	font-size: 30px;
+ 	width: 180px;
+  	border-radius: 30px;
+  	letter-spacing: 2px;
+  	padding-top: 8px;
+   	background: black;
+  	color: white;
+	text-transform: uppercase;
+	text-align: center;
+	-webkit-filter: drop-shadow(5px 5px 10px black);
+ }
