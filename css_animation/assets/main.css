@@ -1,0 +1,99 @@
+body {
+	animation: backgroundcolor 6s infinite;
+}
+
+#sun {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	animation: sunmove 6s infinite;
+  	z-index: 1;
+  	position: relative;
+}
+
+#moon {
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 100%;
+  	animation: moonmove 6s infinite;
+  	position: relative;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+@keyframes backgroundcolor {
+  	0% {background-color: #CFD6E7;}
+  	50% {background-color: #010B1F;}
+  	100% {background-color: #CFD6E7;}
+}
+
+@keyframes sunmove {
+	0% {transform: translateY(-700px);
+			opacity: 100%;}
+	50% {transform: translateY(15px);
+		opacity: 0%;}
+	100% {transform: translateY(-700px);
+			opacity: 100%;}
+}
+
+@keyframes moonmove {
+	0% {transform: translateY(15px);
+		opacity: 0%;}
+	50% {transform: translateY(-700px);
+		opacity: 100%;}
+	100% {transform: translateY(15px);
+			opacity: 0%;}
+}
+
+@media (max-width: 1034px) {
+	#mountains {
+		height: 450px;
+	}
+
+	#moon {
+		height: 150px;
+	}
+
+	#sun {
+		height: 150px;
+
+	}
+}
+
+@media (max-width: 768px) {
+	#mountains {
+		height: 350px;
+	}
+
+	#moon {
+		height: 125px;
+	}
+
+	#sun {
+		height: 125px;
+
+	}
+}
+
+@media (max-width: 650px) {
+	#mountains {
+		height: 300px;
+	}
+
+	#moon {
+		height: 110px;
+	}
+
+	#sun {
+		height: 110px;
+
+	}
+}
