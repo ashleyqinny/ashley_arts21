@@ -1,5 +1,14 @@
+.cursor {
+	cursor: url("sparkle.png"), auto;
+}
+
 body {
 	background-color: black;
+	overflow-y: hidden;
+}
+
+.background3 {
+	background-color: #242424;
 }
 
 @font-face {
@@ -10,6 +19,11 @@ body {
 @font-face {
 	font-family:'sfpro-regular';
 	src: url('SF-Pro-Text-Regular.otf');
+}
+
+@font-face {
+	font-family:'sfpro-thin';
+	src: url('SF-Pro-Text-Thin.otf');
 }
 
 .flex-container {
@@ -27,11 +41,11 @@ body {
 }
 
 .start1 {
-	animation: bannermove 12s linear infinite;
+	animation: bannermove 16s linear infinite;
 }
 
 .start2 {
-	animation: bannermove 16s linear infinite;
+	animation: bannermove 20s linear infinite;
 }
 
 @keyframes bannermove {
@@ -49,29 +63,122 @@ body {
 	border-radius: 15px;
 	border-style: solid;
 	border-width: 0.4px;
-	width: 250px;
-	padding: 25px;
-	padding-bottom: 15px;
+	width: 320px;
+	padding: 30px;
+	padding-top: 18px;
+	padding-bottom: 5px;
 	text-align: center;
+}
+
+.virus_box {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	opacity: 0;
+	animation: fadeout 8s;
+	animation-iteration-count: 1;
+	transition: opacity 1.75s ease-in-out;
+}
+
+.virus_box:hover {
+	opacity: 1;
+	transition: 1.75s ease-in-out;
+}
+
+.vertical_align {
+    display: flex; 
+    align-items: center; 
+	margin-bottom: 10px;
+	margin-top: 15px;
+}
+
+.vertical_align > h5 {
+	padding-left: 10px;
+}
+
+@keyframes fadeout {
+	from {opacity:1;}
+    to {opacity:0;}
 }
 
 h1 {
 	font-family:'sfpro-bold';
 	color: black;
 	font-size: 15px;
+	margin: 10px;
 }
 
 h2 {
-	font-family:'sfpro-regular';
+	font-family:'sfpro-thin';
 	color: black;
-	line-height: 14px;
-	font-size: 12px;
-	margin-bottom: 14px;
+	line-height: 18px;
+	font-size: 13px;
+	margin: 10px;
+}
+
+h3 {
+	font-family:'sfpro-thin';
+	color: white;
+	letter-spacing: 1px;
+	font-size: 20px;
+}
+
+h4 {
+	font-family:'sfpro-regular';
+	color: white;
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin-top: 1px;
+}
+
+h5 {
+	font-family:'sfpro-regular';
+	color: #C1C1C1;
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin: 0px;
 }
 
 p {
 	font-family:'sfpro-regular';
 	color: #3A98FC;
 	font-size: 15px;
-	margin-bottom: 1px;
 }
+
+a {
+	text-decoration: none
+}
+
+hr {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.buttonplacement {
+	position: fixed;
+	left: 90%;
+	top: 80%;
+	transform: translate(-50%, -50%);
+}
+
+.center {
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	width: 55%;
+}
+
+.text-center {
+	text-align: center;
+}
+
