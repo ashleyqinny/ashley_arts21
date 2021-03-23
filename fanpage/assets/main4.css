@@ -1,0 +1,313 @@
+body {
+	background-color: #242424;
+	overflow-y: hidden;
+	background: url("background-smoke.jpg") no-repeat center top fixed;     
+    background-size: cover;	
+}
+
+@font-face {
+	font-family:'sfpro-bold';
+	src: url('sf-pro-text-bold.otf');
+}
+
+@font-face {
+	font-family:'sfpro-regular';
+	src: url('sf-pro-text-regular.otf');
+}
+
+@font-face {
+	font-family:'sfpro-thin';
+	src: url('sf-pro-text-thin.otf');
+}
+
+h1 {
+	font-family:'sfpro-regular';
+	color: white;
+	font-size: 60px;
+	margin: 40px 0px 0px 50px;
+}
+
+h2 {
+	font-family:'sfpro-thin';
+	color: white;
+	font-size: 35px;
+	margin: 0px 0px 0px 50px;
+}
+
+h3 {
+	font-family:'sfpro-regular';
+	color: white;
+	font-size: 35px;
+	margin: 0 auto;
+}
+
+h4 {
+	font-family:'sfpro-regular';
+	color: white;
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin-top: 1px;
+}
+
+h5 {
+	font-family:'sfpro-regular';
+	color: #C1C1C1;
+	letter-spacing: 1px;
+	font-size: 13px;
+	margin: 0px;
+	padding-left: 10px;
+}
+
+p {
+	font-family:'sfpro-regular';
+	color: white;
+	font-size: 13px;
+	text-align: center;
+	font-style: italic;
+	background-color: #AD3535;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 150px;
+	margin-left: 50px;
+	padding-bottom: 2px;
+	padding-top: 2px;
+}
+
+a {
+	text-decoration: none
+}
+
+.appbrowser {
+	position: fixed;
+	left: 62%;
+	top: 51%;
+	transform: translate(-50%, -50%);
+}
+
+.lilies1 {
+	display: flex;
+	width: 610px;
+	justify-content: space-around;
+	position: absolute;
+	left: 62%;
+	top: 42%;
+	transform: translate(-50%, -50%);
+	padding-right: 5px;
+}
+
+.lilies2 {
+	display: flex;
+	width: 610px;
+	justify-content: space-around;
+	position: absolute;
+	left: 62%;
+	top: 65%;
+	transform: translate(-50%, -50%);
+	padding-right: 5px;
+}
+
+.glow img:hover {
+	-webkit-filter: drop-shadow(0.5px 0.5px 4px white);
+}
+
+.virus_box1 {
+	position: absolute;
+	left: 65px;
+	top: 170px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+.virus_box2 {
+	position: absolute;
+	left: 65px;
+	top: 200px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+.virus_box3 {
+	position: absolute;
+	left: 65px;
+	top: 230px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+.virus_box4 {
+	position: absolute;
+	left: 65px;
+	top: 260px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+.virus_box5 {
+	position: absolute;
+	left: 65px;
+	top: 290px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+.virus_box6 {
+	position: absolute;
+	left: 65px;
+	top: 320px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+.virus_box7 {
+	position: absolute;
+	left: 65px;
+	top: 350px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+.virus_box8 {
+	position: absolute;
+	left: 65px;
+	top: 380px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+.virus_box9 {
+	position: absolute;
+	left: 65px;
+	top: 410px;
+	background-color: #212121;
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 255px;
+	padding-left: 30px;
+	padding-right: 30px;
+	justify-content: center;
+}
+
+@keyframes moveup {
+	0% {transform: translateY(700px);
+		opacity: 0%;}
+	100% {transform: translateY(0px);
+		opacity: 100%;}
+
+.vertical_align {
+    display: flex; 
+    align-items: center; 
+	margin-bottom: 10px;
+	margin-top: 9px;
+}
+
+.callbox {
+	position: fixed;
+	left: 40%;
+	top: -3%;
+	background-color: rgb(33,33,33,0.7);
+	border-color: #767676;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 0.4px;
+	width: 430px;
+	padding-left: 30px;
+	padding-right: 10px;
+	justify-content: center;
+}
+
+/*@keyframes movedown {
+	0% {transform: translateY(-500px);}
+	100% {transform: translateY(0px);}
+}*/
+
+/*.vertical_align1 {
+    display: flex; 
+    align-items: center; 
+	margin-bottom: 10px;
+	margin-top: 30px;
+	margin-left: 15px;
+}
+
+.vertical_align2 {
+    display: flex; 
+    align-items: center; 
+}
+
+.facetime {
+	font-family: "sfpro-thin";
+	font-size: 20px;
+}
+
+.wrap > h3 {
+	line-height: 30px;
+}
+
+.phones {
+	margin-right: 25px;
+}
+
+.marie {
+	margin-left: 30px;
+	margin-bottom: 25px;
+}*/
+
